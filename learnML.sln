@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{ECC69026-A512-40A6-9398-DB5EE095742D}"
+	ProjectSection(SolutionItems) = preProject
+		infrastructure\.terraform.lock.hcl = infrastructure\.terraform.lock.hcl
+		infrastructure\instance.tf = infrastructure\instance.tf
+		infrastructure\providers.tf = infrastructure\providers.tf
+		infrastructure\terraform.tf = infrastructure\terraform.tf
+		infrastructure\terraform.tfstate = infrastructure\terraform.tfstate
+		infrastructure\variables.tf = infrastructure\variables.tf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7224CDE6-B739-47D5-85F3-A476EA46E89D}
+	EndGlobalSection
+EndGlobal
